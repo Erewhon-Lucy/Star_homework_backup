@@ -287,9 +287,11 @@ input.button:hover {
 }
 
 #crew #pic_content {
-	position: relative; 
+    display: grid; 
     margin-top: 64px;
     height: 709px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
 }
 
 #crew #pic_content div img {
@@ -303,30 +305,18 @@ input.button:hover {
 }
 
 #crew #pic_content > div:nth-child(1) {
-	position: absolute;
-    top: 0;
-    left: 0;
 	background-image: url(image/teacher1.png);
 }
 
 #crew #pic_content > div:nth-child(2) {
-	position: absolute;
-    top: 0;
-    right: 0;
 	background-image: url(image/teacher2.png);
 }
 
 #crew #pic_content > div:nth-child(3) {
-	position: absolute;
-    bottom: 0;
-    left: 0;
 	background-image: url(image/teacher3.png);
 }
 
 #crew #pic_content > div:nth-child(4) {
-	position: absolute;
-    bottom: 0;
-    right: 0;
 	background-image: url(image/teacher4.png);
 }
 
